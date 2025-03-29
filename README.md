@@ -5,19 +5,38 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 
 #### Features: 
 
-|  | [default](default.json)  | [fastapi-react](fastapi-react.json) | [fullstack-js](fullstack-js.json) | [npm-package](npm-package.json) | [svelte](svelte.json) |
-| ----- | ----- | ---- | ---- | ---- | ---- |
-| NPM/PNPM | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Yarn | ❌ |❌ |❌ |❌ |❌ |❌ |
-| Python (Poetry) | ❌ | ✅ |❌ |❌ |❌ |
-| React |✅ | ✅ | ✅ | ✅ | ✅ |
-| Docker |
-| Vite |✅ | ✅ | ✅ | ✅ | ✅ |
-| ES/TSLint |✅ | ✅ | ✅ | ✅ | ✅ |
-| JS test |✅ | ✅ | ✅ | ✅ | ✅ |
-| Automerge |
-| Lock-file maintenance | Every tuesday before 5am | Every tuesday before 5am | Every tuesday before 5am | Every tuesday before 5am | Every tuesday before 5am |
-| Automerge: lockfile | ✅ | ✅ | ✅ | ✅ | ✅ |
+<table>
+<tr>
+<th></th><th>default</th><th>fastapi-react</th><th>fullstack-js</th><th>npm-package</th><th>svelte</th></tr>
+
+<tr><td colspan=6 align=center><b>Package managers</b></td></tr>
+<tr><td>Javascript/Typescript</td><td colspan=5 align=center>npm / pnpm</td></tr>
+<tr><td>Python</td><td colspan=5 align=center>poetry</td></tr>
+
+<tr><td colspan=6 align=center><b>Presets (grouping)</b></td></tr>
+<tr><td>React</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Vite</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>ES/TSLint</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>JS test</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Docker</td></tr>
+
+
+
+<tr><td colspan=6 align=center><b>Timing, pacing</b></td></tr>
+<tr><td>PR limits</td><td colspan=5 align=center>10 per hour, 20 total open</td></tr>
+<tr><td>Lock-file maintenance</td><td colspan=5 align=center>Every tuesday before 5am</td></tr>
+<tr><td>Delay (npm)</td><td colspan=5 align=center>3 days after publishing</td></tr>
+<tr><td>Delay (other)</td><td colspan=5 align=center>None</td></tr>
+
+<tr><td colspan=6 align=center><b>Pull requests</b></td></tr>
+<tr><td>PR limits</td><td colspan=5 align=center>10 per hour, 20 total open</td></tr>
+
+
+<tr><td colspan=6 align=center><b>Automerge</b></td></tr>
+<tr><td>Lock-file maintenance</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Other thing</td></tr>
+<tr><td>All others</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
+</table>
 
 
 ### Usage
