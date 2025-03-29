@@ -1,7 +1,7 @@
 {
   "automerge": false,
   "commitMessagePrefix": "chore(deps): ",
-  "enabledManagers": ["npm"],
+  "enabledManagers": ["npm", "dockerfile", "docker-compose"],
   "extends": [
     "config:best-practices",
     "group:recommended",
