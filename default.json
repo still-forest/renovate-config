@@ -14,10 +14,12 @@
     "packages:test",
     "packages:vite"
   ],
+  "schedule": ["* 0-4 * * 1-5"],
+  "timezone": "Asia/Singapore",
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
-    "schedule": ["before 5am on tuesday"],
+    "schedule": ["* 0-4 * * 2"],
     "automerge": true
   },
   "packageRules": [
