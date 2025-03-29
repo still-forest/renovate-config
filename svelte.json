@@ -3,22 +3,6 @@
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "automerge": false
-    },
-    {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": [
-        "@babel/*",
-        "*eslint*",
-        "prettier",
-        "@types/*",
-        "typescript*",
-        "vitest"
-      ],
-      "automerge": true
-    },
-    {
       "groupName": "svelte-dependencies",
       "matchPackageNames": ["/^svelte/"]
     }
