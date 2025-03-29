@@ -13,7 +13,13 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 
 ### Configurations
 
-There are 4 custom/specific configurations, each inheriting from the default configuration.
+There are 4 custom/specific configurations, each inheriting from the default configuration.  In summary:
+
+- `default`: Baseline config, centered around Typescript / React development.  It's suitable for non-React projects, as the matching & handling rules will simply not apply.
+- `fastapi-react`: Adds configurations for Python package management (poetry) and grouping of [FastAPI](https://fastapi.tiangolo.com/) and [Strawberry](https://strawberry.rocks/)-related packages.
+- `fullstack-js`: At present, an alias of `default`.  It's kepy separately for future usage.  e.g., to group all `nextjs` packages together
+- `npm-package`: Modification of `peerDependencies` is disabled, to preserve support of older core libraries (e.g., React 18).
+- `svelte`: Adds grouping of [Svelte](https://svelte.dev/) monorepo packages.
 
 #### Features: 
 
