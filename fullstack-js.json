@@ -7,7 +7,6 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
       "automerge": true
-    },
-    { "matchCategories": ["docker"], "enabled": true }
+    }
   ]
 }

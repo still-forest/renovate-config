@@ -8,7 +8,6 @@
       "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
       "automerge": true
     },
-    { "matchCategories": ["docker"], "enabled": true },
     {
       "groupName": "motion-dependencies",
       "matchPackageNames": ["framer-motion", "motion"]
