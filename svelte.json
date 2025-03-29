@@ -23,7 +23,5 @@
       "matchPackageNames": ["/^svelte/"]
     },
     { "matchCategories": ["docker"], "enabled": true }
-  ],
-  "prHourlyLimit": 10,
-  "prConcurrentLimit": 20
+  ]
 }

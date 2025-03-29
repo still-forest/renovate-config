@@ -13,7 +13,5 @@
       "enabled": false,
       "matchDepTypes": ["peerDependencies"]
     }
-  ],
-  "prHourlyLimit": 5,
-  "prConcurrentLimit": 10
+  ]
 }

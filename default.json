@@ -18,5 +18,7 @@
     "recreateWhen": "auto",
     "schedule": ["before 5am on tuesday"],
     "automerge": true
-  }
+  },
+  "prHourlyLimit": 5,
+  "prConcurrentLimit": 10
 }

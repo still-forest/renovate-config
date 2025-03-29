@@ -21,7 +21,5 @@
       "groupName": "strawberry-graphql-dependencies",
       "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"]
     }
-  ],
-  "prHourlyLimit": 10,
-  "prConcurrentLimit": 20
+  ]
 }
