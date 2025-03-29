@@ -1,21 +1,16 @@
 {
   "automerge": false,
-  "commitMessagePrefix": "{{#if isMajor}}🚨 {{else}}⬆️ {{/if}}",
-  "commitMessageAction": "Update",
-  "commitMessageTopic": "{{{depName}}}",
-  "commitMessageExtra": "from {{currentValue}} to {{newValue}}",
   "enabledManagers": ["npm", "poetry"],
   "extends": [
     "github>jszymanowski/renovate-config#0.1.0",
+    "config:best-practices",
     "group:recommended",
     "group:monorepos",
     "npm:unpublishSafe",
     "packages:apollographql",
-    "packages:eslint",
     "packages:jsTest",
     "packages:linters",
     "packages:react",
-    "packages:tslint",
     "packages:vite"
   ],
   "lockFileMaintenance": {
@@ -25,13 +20,10 @@
     "automerge": true
   },
   "packageRules": [
-    { "matchManagers": "npm", "constraints": { "yarn": "4.7.0" } },
     {
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": [
         "@babel/*",
-        "/eslint/",
-        "prettier",
         "@types/*",
         "typescript*",
         "vitest"
@@ -39,6 +31,10 @@
       "automerge": true
     },
     { "matchCategories": ["docker"], "enabled": true },
+    {
+      "groupName": "motion-dependencies",
+      "matchPackageNames": ["framer-motion", "motion"]
+    },
     {
       "groupName": "fastapi-core-dependencies",
       "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
