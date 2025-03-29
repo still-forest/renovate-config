@@ -6,6 +6,7 @@
     "config:best-practices",
     "group:recommended",
     "group:monorepos",
+    "helpers:pinGitHubActionDigests",
     "npm:unpublishSafe",
     "packages:apollographql",
     "packages:linters",
