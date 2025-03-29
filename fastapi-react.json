@@ -1,17 +1,7 @@
 {
   "automerge": false,
   "enabledManagers": ["npm", "poetry"],
-  "extends": [
-    "github>jszymanowski/renovate-config#0.1.0",
-    "group:recommended",
-    "group:monorepos",
-    "npm:unpublishSafe",
-    "packages:apollographql",
-    "packages:jsTest",
-    "packages:linters",
-    "packages:react",
-    "packages:vite"
-  ],
+  "extends": ["github>jszymanowski/renovate-config#0.1.0"],
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",

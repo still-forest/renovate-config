@@ -7,8 +7,14 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 
 |  | [default](default.json)  | [fastapi-react](fastapi-react.json) | [fullstack-js](fullstack-js.json) | [npm-package](npm-package.json) | [svelte](svelte.json) |
 | ----- | ----- | ---- | ---- | ---- | ---- |
-| Javascript/Typescript (NPM) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| NPM/PNPM | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Yarn | ❌ |❌ |❌ |❌ |❌ |❌ |
 | Python (Poetry) | ❌ | ✅ |❌ |❌ |❌ |
+| React |✅ | ✅ | ✅ | ✅ | ✅ |
+| Docker |
+| Vite |✅ | ✅ | ✅ | ✅ | ✅ |
+| ES/TSLint |✅ | ✅ | ✅ | ✅ | ✅ |
+| JS test |✅ | ✅ | ✅ | ✅ | ✅ |
 
 
 ### Usage

@@ -2,16 +2,7 @@
   "automerge": false,
   "commitMessagePrefix": "chore(deps): ",
   "enabledManagers": ["npm"],
-  "extends": [
-    "github>jszymanowski/renovate-config#0.1.0",
-    "group:recommended",
-    "group:monorepos",
-    "npm:unpublishSafe",
-    "packages:jsUnitTest",
-    "packages:linters",
-    "packages:react",
-    "packages:vite"
-  ],
+  "extends": ["github>jszymanowski/renovate-config#0.1.0"],
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
