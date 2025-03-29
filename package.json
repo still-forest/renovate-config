@@ -1,4 +1,15 @@
 {
+  "name": "@jszymanowski/renovate-config",
+  "version": "0.0.1",
+  "description": "My personal biome.js config",
+  "author": "John Szymanowski <dev@john.szymanow.ski>",
+  "license": "MIT",
+  "homepage": "https://github.com/jszymanowski/renovate-config",
+  "bugs": "https://github.com/jszymanowski/renovate-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jszymanowski/renovate-config.git"
+  },
   "scripts": {
     "format": "biome format --write .",
     "lint": "biome check .",
