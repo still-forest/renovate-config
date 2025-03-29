@@ -1,0 +1,32 @@
+{
+  "automerge": false,
+  "enabledManagers": ["npm"],
+  "extends": [
+    "github>jszymanowski/renovate-config#0.1.0",
+    "group:recommended",
+    "group:monorepos",
+    "npm:unpublishSafe",
+    "packages:jsTest",
+    "packages:linters",
+    "packages:react",
+    "packages:tslint",
+    "packages:vite"
+  ],
+  "ignorePaths": ["node_legacy/**"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "recreateWhen": "auto",
+    "schedule": ["before 5am on tuesday"],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
+      "automerge": true
+    },
+    { "matchCategories": ["docker"], "enabled": true }
+  ],
+  "prHourlyLimit": 10,
+  "prConcurrentLimit": 20
+}
