@@ -1,5 +1,15 @@
 These are my set of personal [Renovate](https://docs.renovatebot.com/) configurations.  See [Renovate documentation](https://docs.renovatebot.com/config-presets/) on using shared configs/presets.
 
+### Guiding principles
+
+- [Renovate's best practices](https://docs.renovatebot.com/presets-config/#configbest-practices) should be followed as a baseline.  Deviations should generally be in the form of extensions, rather than overrides.
+- Automerge:
+  - Packages central to CI functions (e.g., linting, testing) should be automerged to reduce volume and noise
+  - All other packages should be reviewed for appropriateness prior to merge
+- Grouping:
+  - Packages should be grouped when they are typically released together, e.g. as part of a monorepo release.
+- PR titles should follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines, i.e. be prefixed with `chore(deps):`
+
 
 ### Configurations
 
