@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.0](https://github.com/jszymanowski/renovate-config/compare/v0.3.1...v0.4.0) (2025-03-29)
+
+
+### Features
+
+* Add docker versioning ([#14](https://github.com/jszymanowski/renovate-config/issues/14)) ([1b846a3](https://github.com/jszymanowski/renovate-config/commit/1b846a3e719e9b1d2b0ad495e903cdc0c30d918f))
+* Apply custom schedule for updates ([#16](https://github.com/jszymanowski/renovate-config/issues/16)) ([b309264](https://github.com/jszymanowski/renovate-config/commit/b309264ba9e10f76e53355f9ea9a65a9b0fab582))
+* Pin Github Action digests ([#15](https://github.com/jszymanowski/renovate-config/issues/15)) ([c4449b2](https://github.com/jszymanowski/renovate-config/commit/c4449b2c0ef716e5a211eba5d2925d4d021c037f))
+
 ## [0.3.1](https://github.com/jszymanowski/renovate-config/compare/v0.3.0...v0.3.1) (2025-03-29)
 
 
