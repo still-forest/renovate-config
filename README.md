@@ -77,9 +77,10 @@ There are 4 custom/specific configurations, each inheriting from the default con
 
 ### Scheduling
 By default, [Renovate runs around the clock](https://docs.renovatebot.com/key-concepts/scheduling/).  To reduce noise, the configs limit this to:
-- before 5am
-- Monday-Friday
+- Monday-Friday: 
+  - before 9am
   - except lock-file maintenance, which only runs on Tuesdays
+- Saturday/Sunday: anytime
 - Singapore time, as that's where I'm currently located
 
 There is no specific schedule for automerges, as [there may be a several hour delay](https://docs.renovatebot.com/key-concepts/automerge/).  If desired, one may be set with `automergeSchedule`.  
