@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        task: [default, fastapi-react]
+        task: [default, fastapi-react, fullstack-js, npm-package, svelte]
 
     steps:
       - name: Checkout code
