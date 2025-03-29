@@ -1,0 +1,45 @@
+{
+  "enabledManagers": ["npm"],
+  "extends": [
+    "github>jszymanowski/renovate-config#0.1.0",
+    "group:recommended",
+    "group:monorepos",
+    "npm:unpublishSafe",
+    "packages:eslint",
+    "packages:jsTest",
+    "packages:linters",
+    "packages:tslint",
+    "packages:vite"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "recreateWhen": "auto",
+    "schedule": ["before 5am on tuesday"],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "automerge": false
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": [
+        "@babel/*",
+        "*eslint*",
+        "prettier",
+        "@types/*",
+        "typescript*",
+        "vitest"
+      ],
+      "automerge": true
+    },
+    {
+      "groupName": "svelte-dependencies",
+      "matchPackageNames": ["/^svelte/"]
+    },
+    { "matchCategories": ["docker"], "enabled": true }
+  ],
+  "prHourlyLimit": 10,
+  "prConcurrentLimit": 20
+}

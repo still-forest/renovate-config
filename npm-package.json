@@ -1,13 +1,13 @@
 {
   "automerge": false,
-  "enabledManagers": ["npm", "poetry"],
+  "commitMessagePrefix": "chore(deps): ",
+  "enabledManagers": ["npm"],
   "extends": [
     "github>jszymanowski/renovate-config#0.1.0",
     "group:recommended",
     "group:monorepos",
     "npm:unpublishSafe",
-    "packages:apollographql",
-    "packages:jsTest",
+    "packages:jsUnitTest",
     "packages:linters",
     "packages:react",
     "packages:vite"
@@ -24,20 +24,11 @@
       "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
       "automerge": true
     },
-    { "matchCategories": ["docker"], "enabled": true },
     {
-      "groupName": "motion-dependencies",
-      "matchPackageNames": ["framer-motion", "motion"]
-    },
-    {
-      "groupName": "fastapi-core-dependencies",
-      "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
-    },
-    {
-      "groupName": "strawberry-graphql-dependencies",
-      "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"]
+      "enabled": false,
+      "matchDepTypes": ["peerDependencies"]
     }
   ],
-  "prHourlyLimit": 10,
-  "prConcurrentLimit": 20
+  "prHourlyLimit": 5,
+  "prConcurrentLimit": 10
 }
