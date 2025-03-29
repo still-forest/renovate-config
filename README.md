@@ -3,6 +3,13 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 
 ### Configurations
 
+#### Features: 
+
+|  | [default](default.json)  | [fastapi-react](fastapi-react.json) | [fullstack-js](fullstack-js.json) | [npm-package](npm-package.json) | [svelte](svelte.json) |
+| ----- | ----- | ---- | ---- | ---- | ---- |
+| Javascript/Typescript (NPM) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Python (Poetry) | ❌ | ✅ |❌ |❌ |❌ |
+
 
 ### Usage
 
