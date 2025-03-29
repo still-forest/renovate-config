@@ -1,8 +1,7 @@
 {
   "automerge": false,
   "enabledManagers": ["npm"],
-  "extends": ["github>jszymanowski/renovate-config#0.1.0"],
-  "ignorePaths": ["node_legacy/**"],
+  "extends": ["local>jszymanowski/renovate-config"],
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
