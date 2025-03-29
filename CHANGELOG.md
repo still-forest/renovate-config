@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.0](https://github.com/jszymanowski/renovate-config/compare/v0.4.0...v0.5.0) (2025-03-29)
+
+
+### Features
+
+* Add Github Actions, Node/NPM as enabled managers ([#18](https://github.com/jszymanowski/renovate-config/issues/18)) ([e7d57a4](https://github.com/jszymanowski/renovate-config/commit/e7d57a4c0fd62cef93a2035f0b207f4ab11f162c))
+* Use custom manager presets for biome, Docker, Github actions ([#19](https://github.com/jszymanowski/renovate-config/issues/19)) ([4fb4918](https://github.com/jszymanowski/renovate-config/commit/4fb49181a9628e69d6cf079e221c15478ac23db8))
+
 ## [0.4.0](https://github.com/jszymanowski/renovate-config/compare/v0.3.1...v0.4.0) (2025-03-29)
 
 
