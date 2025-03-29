@@ -11,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        task: [default]
+        task: [default, fastapi-react]
 
     steps:
       - name: Checkout code
@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: "22.x"
           registry-url: "https://registry.npmjs.org"
-
-      - name: Validate Renovate configs
-        run: npx --yes --package renovate --strict -- renovate-config-validator default.json
 
       - name: Validate ${{ matrix.task }}.json
         run: npx --yes --package renovate --strict -- renovate-config-validator ${{ matrix.task }}.json
