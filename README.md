@@ -1,9 +1,25 @@
 These are my set of personal [Renovate](https://docs.renovatebot.com/) configurations.  See [Renovate documentation](https://docs.renovatebot.com/config-presets/) on using shared configs/presets.
 
+### Guiding principles
+
+- [Renovate's best practices](https://docs.renovatebot.com/presets-config/#configbest-practices) should be followed as a baseline.  Deviations should generally be in the form of extensions, rather than overrides.
+- Automerge:
+  - Packages central to CI functions (e.g., linting, testing) should be automerged to reduce volume and noise
+  - All other packages should be reviewed for appropriateness prior to merge
+- Grouping:
+  - Packages should be grouped when they are typically released together, e.g. as part of a monorepo release.
+- PR titles should follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines, i.e. be prefixed with `chore(deps):`
+
 
 ### Configurations
 
-There are 4 custom/specific configurations, each inheriting from the default configuration.
+There are 4 custom/specific configurations, each inheriting from the default configuration.  In summary:
+
+- `default`: Baseline config, centered around Typescript / React development.  It's suitable for non-React projects, as the matching & handling rules will simply not apply.
+- `fastapi-react`: Adds configurations for Python package management (poetry) and grouping of [FastAPI](https://fastapi.tiangolo.com/) and [Strawberry](https://strawberry.rocks/)-related packages.
+- `fullstack-js`: At present, an alias of `default`.  It's kepy separately for future usage.  e.g., to group all `nextjs` packages together
+- `npm-package`: Modification of `peerDependencies` is disabled, to preserve support of older core libraries (e.g., React 18).
+- `svelte`: Adds grouping of [Svelte](https://svelte.dev/) monorepo packages.
 
 #### Features: 
 
