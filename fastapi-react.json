@@ -1,5 +1,4 @@
 {
-  "automerge": false,
   "enabledManagers": ["npm", "poetry"],
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [

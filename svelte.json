@@ -1,5 +1,4 @@
 {
-  "enabledManagers": ["npm"],
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {
