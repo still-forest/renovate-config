@@ -3,17 +3,14 @@
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
-      "automerge": true
-    },
-    {
       "groupName": "fastapi-core-dependencies",
-      "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
+      "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"],
+      "automerge": false
     },
     {
       "groupName": "strawberry-graphql-dependencies",
-      "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"]
+      "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"],
+      "automerge": false
     }
   ]
 }
