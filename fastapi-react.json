@@ -1,49 +1,44 @@
 {
-  "automerge": false,
-  "enabledManagers": ["npm", "poetry"],
-  "extends": [
-    "github>jszymanowski/renovate-config#0.1.0",
-    "config:best-practices",
-    "group:recommended",
-    "group:monorepos",
-    "npm:unpublishSafe",
-    "packages:apollographql",
-    "packages:jsTest",
-    "packages:linters",
-    "packages:react",
-    "packages:vite"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "recreateWhen": "auto",
-    "schedule": ["before 5am on tuesday"],
-    "automerge": true
-  },
-  "packageRules": [
-    {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": [
-        "@babel/*",
-        "@types/*",
-        "typescript*",
-        "vitest"
-      ],
-      "automerge": true
-    },
-    { "matchCategories": ["docker"], "enabled": true },
-    {
-      "groupName": "motion-dependencies",
-      "matchPackageNames": ["framer-motion", "motion"]
-    },
-    {
-      "groupName": "fastapi-core-dependencies",
-      "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
-    },
-    {
-      "groupName": "strawberry-graphql-dependencies",
-      "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"]
-    }
-  ],
-  "prHourlyLimit": 10,
-  "prConcurrentLimit": 20
+	"automerge": false,
+	"enabledManagers": ["npm", "poetry"],
+	"extends": [
+		"github>jszymanowski/renovate-config#0.1.0",
+		"config:best-practices",
+		"group:recommended",
+		"group:monorepos",
+		"npm:unpublishSafe",
+		"packages:apollographql",
+		"packages:jsTest",
+		"packages:linters",
+		"packages:react",
+		"packages:vite"
+	],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"recreateWhen": "auto",
+		"schedule": ["before 5am on tuesday"],
+		"automerge": true
+	},
+	"packageRules": [
+		{
+			"matchDepTypes": ["devDependencies"],
+			"matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
+			"automerge": true
+		},
+		{ "matchCategories": ["docker"], "enabled": true },
+		{
+			"groupName": "motion-dependencies",
+			"matchPackageNames": ["framer-motion", "motion"]
+		},
+		{
+			"groupName": "fastapi-core-dependencies",
+			"matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
+		},
+		{
+			"groupName": "strawberry-graphql-dependencies",
+			"matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"]
+		}
+	],
+	"prHourlyLimit": 10,
+	"prConcurrentLimit": 20
 }
