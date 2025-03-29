@@ -1,7 +1,5 @@
 {
   "automerge": false,
-  "commitMessagePrefix": "chore(deps): ",
-  "enabledManagers": ["npm"],
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {

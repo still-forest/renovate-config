@@ -1,24 +1,16 @@
 {
-  "automerge": false,
   "enabledManagers": ["npm", "poetry"],
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
-      "automerge": true
-    },
-    {
-      "groupName": "motion-dependencies",
-      "matchPackageNames": ["framer-motion", "motion"]
-    },
-    {
       "groupName": "fastapi-core-dependencies",
-      "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
+      "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"],
+      "automerge": false
     },
     {
       "groupName": "strawberry-graphql-dependencies",
-      "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"]
+      "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"],
+      "automerge": false
     }
   ]
 }
