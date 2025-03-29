@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/jszymanowski/renovate-config/compare/v0.5.0...v0.5.1) (2025-03-29)
+
+
+### Minor tweaks
+
+* Revise schedule ([#21](https://github.com/jszymanowski/renovate-config/issues/21)) ([7122997](https://github.com/jszymanowski/renovate-config/commit/71229975a711cc1ee057a67ff50483d90e243cba))
+
 ## [0.5.0](https://github.com/jszymanowski/renovate-config/compare/v0.4.0...v0.5.0) (2025-03-29)
 
 
