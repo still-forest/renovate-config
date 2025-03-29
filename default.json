@@ -19,6 +19,24 @@
     "schedule": ["before 5am on tuesday"],
     "automerge": true
   },
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "automerge": false
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": [
+        "@babel/*",
+        "*eslint*",
+        "prettier",
+        "@types/*",
+        "typescript*",
+        "vitest"
+      ],
+      "automerge": true
+    }
+  ],
   "prHourlyLimit": 5,
   "prConcurrentLimit": 10
 }

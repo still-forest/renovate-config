@@ -1,12 +1,5 @@
 {
   "automerge": false,
   "enabledManagers": ["npm"],
-  "extends": ["local>jszymanowski/renovate-config"],
-  "packageRules": [
-    {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
-      "automerge": true
-    }
-  ]
+  "extends": ["local>jszymanowski/renovate-config"]
 }

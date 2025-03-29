@@ -5,11 +5,6 @@
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@babel/*", "@types/*", "typescript*", "vitest"],
-      "automerge": true
-    },
-    {
       "enabled": false,
       "matchDepTypes": ["peerDependencies"]
     }

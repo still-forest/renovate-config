@@ -15,11 +15,19 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 <tr><td>Dockerfile</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 <tr><td>Docker Compose</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 
-<tr><td colspan=6 align=center><b>Presets (grouping)</b></td></tr>
+<tr><td colspan=6 align=center><b>Grouping (presets)</b></td></tr>
 <tr><td>React</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Vite</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>ES/TSLint</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>JS test</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+
+<tr><td colspan=6 align=center><b>Grouping (custom)</b></td></tr>
+<tr><td>Babel</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Prettier</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Svelte</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>Types (any)</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Typescript</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Vitest</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 
 <tr><td colspan=6 align=center><b>Timing, pacing</b></td></tr>
 <tr><td>PR limits</td><td colspan=5 align=center>10 per hour, 20 total open</td></tr>
@@ -33,7 +41,13 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 
 <tr><td colspan=6 align=center><b>Automerge</b></td></tr>
 <tr><td>Lock-file maintenance</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Other thing</td></tr>
+<tr><td>Babel</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>ESLint</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Prettier</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Svelte</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
+<tr><td>Types (any)</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Typescript</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Vitest</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>All others</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 </table>
 
