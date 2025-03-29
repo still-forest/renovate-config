@@ -1,17 +1,7 @@
 {
   "automerge": false,
   "enabledManagers": ["npm"],
-  "extends": [
-    "github>jszymanowski/renovate-config#0.1.0",
-    "group:recommended",
-    "group:monorepos",
-    "npm:unpublishSafe",
-    "packages:jsTest",
-    "packages:linters",
-    "packages:react",
-    "packages:tslint",
-    "packages:vite"
-  ],
+  "extends": ["github>jszymanowski/renovate-config#0.1.0"],
   "ignorePaths": ["node_legacy/**"],
   "lockFileMaintenance": {
     "enabled": true,

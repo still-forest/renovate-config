@@ -2,5 +2,15 @@
   "automerge": false,
   "commitMessagePrefix": "chore(deps): ",
   "enabledManagers": ["npm"],
-  "extends": ["config:best-practices"]
+  "extends": [
+    "config:best-practices",
+    "group:recommended",
+    "group:monorepos",
+    "npm:unpublishSafe",
+    "packages:apollographql",
+    "packages:linters",
+    "packages:react",
+    "packages:test",
+    "packages:vite"
+  ]
 }
