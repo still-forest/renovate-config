@@ -1,7 +1,7 @@
 {
   "automerge": false,
   "enabledManagers": ["npm", "poetry"],
-  "extends": ["github>jszymanowski/renovate-config#0.1.0"],
+  "extends": ["local>jszymanowski/renovate-config"],
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
