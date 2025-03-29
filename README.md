@@ -15,6 +15,9 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 | Vite |✅ | ✅ | ✅ | ✅ | ✅ |
 | ES/TSLint |✅ | ✅ | ✅ | ✅ | ✅ |
 | JS test |✅ | ✅ | ✅ | ✅ | ✅ |
+| Automerge |
+| Lock-file maintenance | Every tuesday before 5am | Every tuesday before 5am | Every tuesday before 5am | Every tuesday before 5am | Every tuesday before 5am |
+| Automerge: lockfile | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 
 ### Usage

@@ -2,12 +2,6 @@
   "automerge": false,
   "enabledManagers": ["npm", "poetry"],
   "extends": ["github>jszymanowski/renovate-config#0.1.0"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "recreateWhen": "auto",
-    "schedule": ["before 5am on tuesday"],
-    "automerge": true
-  },
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
