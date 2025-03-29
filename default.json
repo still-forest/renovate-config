@@ -1,0 +1,8 @@
+{
+  "automerge": false,
+  "commitMessagePrefix": "chore(deps): ",
+  "enabledManagers": ["npm"],
+  "extends": [
+    "config:best-practices"
+  ]
+}
