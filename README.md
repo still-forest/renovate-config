@@ -23,6 +23,7 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 
 <tr><td colspan=6 align=center><b>Grouping (custom)</b></td></tr>
 <tr><td>Babel</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Motion</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Prettier</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Svelte</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Types (any)</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -43,6 +44,7 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 <tr><td>Lock-file maintenance</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Babel</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>ESLint</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Motion</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 <tr><td>Prettier</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Svelte</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 <tr><td>Types (any)</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>

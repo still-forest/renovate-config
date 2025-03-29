@@ -25,6 +25,10 @@
       "automerge": false
     },
     {
+      "groupName": "motion-dependencies",
+      "matchPackageNames": ["framer-motion", "motion"]
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": [
         "@babel/*",

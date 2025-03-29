@@ -8,10 +8,6 @@
       "automerge": true
     },
     {
-      "groupName": "motion-dependencies",
-      "matchPackageNames": ["framer-motion", "motion"]
-    },
-    {
       "groupName": "fastapi-core-dependencies",
       "matchPackageNames": ["/^fastapi/", "/^pydantic/", "/^starlette/"]
     },
