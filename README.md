@@ -30,8 +30,8 @@ There are 4 custom/specific configurations, each inheriting from the default con
 <tr><td colspan=6 align=center><b>Package managers</b></td></tr>
 <tr><td>Javascript/Typescript</td><td colspan=5 align=center>✅ (npm / pnpm)</td></tr>
 <tr><td>Python</td><td colspan=5 align=center>✅ (poetry)</td></tr>
-<tr><td>Dockerfile</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
-<tr><td>Docker Compose</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
+<tr><td>Dockerfile</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>Docker Compose</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 
 <tr><td colspan=6 align=center><b>Grouping (presets)</b></td></tr>
 <tr><td>React</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
