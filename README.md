@@ -10,17 +10,16 @@ These are my set of personal [Renovate](https://docs.renovatebot.com/) configura
 <th></th><th>default</th><th>fastapi-react</th><th>fullstack-js</th><th>npm-package</th><th>svelte</th></tr>
 
 <tr><td colspan=6 align=center><b>Package managers</b></td></tr>
-<tr><td>Javascript/Typescript</td><td colspan=5 align=center>npm / pnpm</td></tr>
-<tr><td>Python</td><td colspan=5 align=center>poetry</td></tr>
+<tr><td>Javascript/Typescript</td><td colspan=5 align=center>✅ (npm / pnpm)</td></tr>
+<tr><td>Python</td><td colspan=5 align=center>✅ (poetry)</td></tr>
+<tr><td>Dockerfile</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
+<tr><td>Docker Compose</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 
 <tr><td colspan=6 align=center><b>Presets (grouping)</b></td></tr>
 <tr><td>React</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Vite</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>ES/TSLint</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>JS test</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
-<tr><td>Docker</td></tr>
-
-
 
 <tr><td colspan=6 align=center><b>Timing, pacing</b></td></tr>
 <tr><td>PR limits</td><td colspan=5 align=center>10 per hour, 20 total open</td></tr>

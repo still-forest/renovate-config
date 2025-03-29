@@ -21,7 +21,6 @@
     {
       "groupName": "svelte-dependencies",
       "matchPackageNames": ["/^svelte/"]
-    },
-    { "matchCategories": ["docker"], "enabled": true }
+    }
   ]
 }
