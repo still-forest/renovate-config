@@ -1,12 +1,6 @@
 {
   "enabledManagers": ["npm"],
   "extends": ["local>jszymanowski/renovate-config"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "recreateWhen": "auto",
-    "schedule": ["before 5am on tuesday"],
-    "automerge": true
-  },
   "packageRules": [
     {
       "matchPackageNames": ["*"],
@@ -29,7 +23,5 @@
       "matchPackageNames": ["/^svelte/"]
     },
     { "matchCategories": ["docker"], "enabled": true }
-  ],
-  "prHourlyLimit": 10,
-  "prConcurrentLimit": 20
+  ]
 }

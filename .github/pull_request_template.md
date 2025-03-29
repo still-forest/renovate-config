@@ -6,7 +6,6 @@ Follow [Conventional Commits](https://www.conventionalcommits.org/) specificatio
 - `build:` Build system changes
 - `ci:` CI configuration changes
 - `docs:` Documentation changes
-- `refactor:` Code refactoring
 - `style:` Code style changes (formatting, etc.)
 - `test:` Adding or modifying tests
 
@@ -14,6 +13,7 @@ Follow [Conventional Commits](https://www.conventionalcommits.org/) specificatio
 - `fix:` A bug fix
 - `perf:` Performance improvements
 - `tweak:` Minor change with no obivous end-user changes
+- `refactor:` Code refactoring
 - `revert:` Revert a previous commit
 
 ### Minor version `_.N.0` 
