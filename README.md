@@ -79,7 +79,7 @@ There are 4 custom/specific configurations, each inheriting from the default con
 By default, [Renovate runs around the clock](https://docs.renovatebot.com/key-concepts/scheduling/).  To reduce noise, the configs limit this to:
 - Monday-Friday: 
   - before 9am
-  - except lock-file maintenance, which only runs on Tuesdays
+  - *note:* lock-file maintenance only runs on Tuesdays
 - Saturday/Sunday: anytime
 - Singapore time, as that's where I'm currently located
 

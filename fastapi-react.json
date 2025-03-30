@@ -11,6 +11,10 @@
       "groupName": "strawberry-graphql-dependencies",
       "matchPackageNames": ["/^strawberry-graphql/", "/^graphql/"],
       "automerge": false
+    },
+    {
+      "matchPackageNames": ["black", "isort", "ruff", "mypy", "flake8", "pytest*", "types-p*"],
+      "automerge": true
     }
   ]
 }
