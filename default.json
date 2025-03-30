@@ -39,7 +39,7 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": [
         "@babel/*",
-        "*eslint*",
+        "/eslint/",
         "prettier",
         "@types/*",
         "typescript*",
