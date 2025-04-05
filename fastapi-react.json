@@ -1,5 +1,4 @@
 {
-  "enabledManagers": ["npm", "poetry", "dockerfile", "docker-compose"],
   "extends": ["local>jszymanowski/renovate-config"],
   "packageRules": [
     {
