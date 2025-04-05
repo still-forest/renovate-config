@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.0](https://github.com/jszymanowski/renovate-config/compare/v0.6.0...v0.7.0) (2025-04-05)
+
+
+### Features
+
+* Automerge patch updates ([#31](https://github.com/jszymanowski/renovate-config/issues/31)) ([d7ca136](https://github.com/jszymanowski/renovate-config/commit/d7ca136d7ccc5838edc1a4b2b8cce3d77547c5fb))
+* Use all package managers by default ([#27](https://github.com/jszymanowski/renovate-config/issues/27)) ([c2db62b](https://github.com/jszymanowski/renovate-config/commit/c2db62b08abcde21ec713ddd01f3895e0ab0d4b9))
+
 ## [0.6.0](https://github.com/jszymanowski/renovate-config/compare/v0.5.1...v0.6.0) (2025-03-30)
 
 
