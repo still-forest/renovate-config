@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/jszymanowski/renovate-config/compare/v0.7.0...v0.8.0) (2025-04-06)
+
+
+### Features
+
+* Automerge testing-library/react  and other /testing/ packages ([#33](https://github.com/jszymanowski/renovate-config/issues/33)) ([362f768](https://github.com/jszymanowski/renovate-config/commit/362f768144a99e57389dd2ffd5ca5a1f4883da02))
+
 ## [0.7.0](https://github.com/jszymanowski/renovate-config/compare/v0.6.0...v0.7.0) (2025-04-05)
 
 
