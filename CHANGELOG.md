@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/jszymanowski/renovate-config/compare/v0.8.0...v0.9.0) (2025-04-07)
+
+
+### Features
+
+* Reduce update frequency to twice per week ([#35](https://github.com/jszymanowski/renovate-config/issues/35)) ([6d456ef](https://github.com/jszymanowski/renovate-config/commit/6d456efad8e74268c0b20fc506e541e705c4d105))
+
 ## [0.8.0](https://github.com/jszymanowski/renovate-config/compare/v0.7.0...v0.8.0) (2025-04-06)
 
 
