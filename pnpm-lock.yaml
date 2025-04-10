@@ -12,8 +12,8 @@ importers:
         specifier: 2.0.0-beta.1
         version: 2.0.0-beta.1
       '@jszymanowski/biomejs-config':
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 1.1.0
+        version: 1.1.0
 
 packages:
 
@@ -70,8 +70,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@jszymanowski/biomejs-config@1.0.0':
-    resolution: {integrity: sha512-rKHv9LVllwTtgfUbO4UvvvDD/JDp4DyUPvOuqrzNIp0k9x39oZRbs7AOXDC9dvooxRcZlnI6WKTim6rhs8AoFQ==}
+  '@jszymanowski/biomejs-config@1.1.0':
+    resolution: {integrity: sha512-kHIYPm3pfxJMaOqwUvI6I4UpuW+z9f8mcfOf/X9274lchmEmxeMXc6GQ2me4lTp24xVuy5/IlsXN4++sBTDTww==}
 
 snapshots:
 
@@ -110,4 +110,4 @@ snapshots:
   '@biomejs/cli-win32-x64@2.0.0-beta.1':
     optional: true
 
-  '@jszymanowski/biomejs-config@1.0.0': {}
+  '@jszymanowski/biomejs-config@1.1.0': {}
