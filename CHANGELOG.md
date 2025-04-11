@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://github.com/jszymanowski/renovate-config/compare/v0.9.0...v0.10.0) (2025-04-11)
+
+
+### Features
+
+* Define schedule by version type ([#39](https://github.com/jszymanowski/renovate-config/issues/39)) ([ca7fbc4](https://github.com/jszymanowski/renovate-config/commit/ca7fbc4262fd40441c3016b8d71de183bd929ae4))
+
 ## [0.9.0](https://github.com/jszymanowski/renovate-config/compare/v0.8.0...v0.9.0) (2025-04-07)
 
 
