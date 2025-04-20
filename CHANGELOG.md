@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.11.0](https://github.com/jszymanowski/renovate-config/compare/v0.10.0...v0.11.0) (2025-04-20)
+
+
+### Features
+
+* Only patch once a week ([#43](https://github.com/jszymanowski/renovate-config/issues/43)) ([3bd3ffb](https://github.com/jszymanowski/renovate-config/commit/3bd3ffb25ee90515dfa8b6b7a7d9e0a113dc11aa))
+
 ## [0.10.0](https://github.com/jszymanowski/renovate-config/compare/v0.9.0...v0.10.0) (2025-04-11)
 
 
