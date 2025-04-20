@@ -29,16 +29,16 @@
       "automerge": false
     },
     {
-      "description": "Schedule patch updates every Sunday & Wednesday (12am-9am)",
+      "description": "Schedule patch updates every Saturday (12am-9am)",
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
-      "schedule": ["* 0-9 * * 0,3"]
+      "schedule": ["* 0-9 * * 6"]
     },
     {
-      "description": "Schedule patch updates every Monday (12am-9am)",
+      "description": "Schedule minor updates every Sunday (12am-9am)",
       "matchUpdateTypes": ["minor"],
-      "schedule": ["* 0-9 * * 1"]
+      "schedule": ["* 0-9 * * 0"]
     },
     {
       "description": "Schedule patch updates on 1st & 15th of every month (12am-9am)",
