@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.12.0](https://github.com/still-forest/renovate-config/compare/v0.11.0...v0.12.0) (2025-05-13)
+
+
+### Features
+
+* Move to still-forest ([#50](https://github.com/still-forest/renovate-config/issues/50)) ([3e94033](https://github.com/still-forest/renovate-config/commit/3e940336dd95e68a67d7e43f2bf705ff1e675685))
+
 ## [0.11.0](https://github.com/still-forest/renovate-config/compare/v0.10.0...v0.11.0) (2025-04-20)
 
 ### Features
