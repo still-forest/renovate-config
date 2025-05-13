@@ -1,6 +1,6 @@
 {
   "automerge": false,
-  "extends": ["local>jszymanowski/renovate-config"],
+  "extends": ["local>still-forest/renovate-config"],
   "packageRules": [
     {
       "enabled": false,

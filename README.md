@@ -98,9 +98,9 @@ Your renovate.json should extend this repo:
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     // latest version:
-    "github>jszymanowski/renovate-config"
+    "github>still-forest/renovate-config"
     // OR specific version:
-    "github>jszymanowski/renovate-config#1.0.0"
+    "github>still-forest/renovate-config#1.0.0"
   ]
 }
 ```
@@ -114,9 +114,9 @@ Your renovate.json should specify which config to use. The default config is inc
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     // latest version:
-    "github>jszymanowski/renovate-config//fastapi-react"
+    "github>still-forest/renovate-config//fastapi-react"
     // OR specific version:
-    "github>jszymanowski/renovate-config//fastapi-react#1.0.0"
+    "github>still-forest/renovate-config//fastapi-react#1.0.0"
   ]
 }
 ```
