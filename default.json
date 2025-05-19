@@ -29,6 +29,20 @@
       "automerge": false
     },
     {
+      "matchUpdateTypes": ["minor"],
+      "matchPackageNames": [
+        "tailwind-merge",
+        "framer-motion",
+        "motion",
+        "lucide-react",
+        "pnpm",
+        "msw",
+        "still-forest/renovate-config",
+        "still-forest/biomejs-config"
+      ],
+      "automerge": true
+    },
+    {
       "description": "Schedule patch updates every Saturday (12am-9am)",
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
@@ -52,15 +66,7 @@
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": [
-        "@babel/*",
-        "/eslint/",
-        "prettier",
-        "/testing/",
-        "@types/*",
-        "typescript*",
-        "vitest"
-      ],
+      "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
       "automerge": true
     }
   ],
