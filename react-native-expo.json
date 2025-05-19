@@ -1,0 +1,9 @@
+{
+  "extends": ["local>still-forest/renovate-config"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["react*", "@types/react*"],
+      "enabled": false
+    }
+  ]
+}
