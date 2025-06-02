@@ -38,7 +38,8 @@
         "pnpm",
         "msw",
         "still-forest/renovate-config",
-        "still-forest/biomejs-config"
+        "still-forest/biomejs-config",
+        "@vitejs/*"
       ],
       "automerge": true
     },
