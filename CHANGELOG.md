@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.14.0](https://github.com/still-forest/renovate-config/compare/v0.13.0...v0.14.0) (2025-06-02)
+
+
+### Features
+
+* Add vite to trusted minor bumps ([#57](https://github.com/still-forest/renovate-config/issues/57)) ([540d076](https://github.com/still-forest/renovate-config/commit/540d076210eb53db83abac4f0c291200d1ff4670))
+
 ## [0.13.0](https://github.com/still-forest/renovate-config/compare/v0.12.0...v0.13.0) (2025-05-19)
 
 
