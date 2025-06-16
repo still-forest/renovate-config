@@ -1,6 +1,6 @@
 {
   "name": "@still-forest/renovate-config",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Renovate config for Still Forest",
   "author": "John Szymanowski <john@stillforest.dev>",
   "license": "MIT",

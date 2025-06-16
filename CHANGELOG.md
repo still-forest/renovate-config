@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.15.0](https://github.com/still-forest/renovate-config/compare/v0.14.0...v0.15.0) (2025-06-16)
+
+
+### Features
+
+* Automerge coverage and vitest minor version bumps ([#63](https://github.com/still-forest/renovate-config/issues/63)) ([2bf518c](https://github.com/still-forest/renovate-config/commit/2bf518c96ff88f1ceb8082a02ab4583126aa81e1))
+
 ## [0.14.0](https://github.com/still-forest/renovate-config/compare/v0.13.0...v0.14.0) (2025-06-02)
 
 
