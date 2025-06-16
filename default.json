@@ -31,15 +31,17 @@
     {
       "matchUpdateTypes": ["minor"],
       "matchPackageNames": [
-        "tailwind-merge",
+        "@vitejs/*",
+        "coverage",
         "framer-motion",
-        "motion",
         "lucide-react",
-        "pnpm",
+        "motion",
         "msw",
+        "pnpm",
         "still-forest/renovate-config",
         "still-forest/biomejs-config",
-        "@vitejs/*"
+        "tailwind-merge",
+        "vitest*"
       ],
       "automerge": true
     },
