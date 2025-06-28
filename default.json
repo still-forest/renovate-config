@@ -1,5 +1,6 @@
 {
   "automerge": false,
+  "rebaseWhen": "conflicted",
   "commitMessagePrefix": "chore(deps): ",
   "extends": [
     "config:best-practices",
