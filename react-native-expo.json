@@ -4,6 +4,10 @@
     {
       "matchPackageNames": ["react*", "@types/react*"],
       "enabled": false
+    },
+    {
+      "matchPackageNames": ["*"],
+      "automerge": false
     }
   ]
 }
