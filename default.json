@@ -64,6 +64,19 @@
       "schedule": ["* 0-9 1,15 * *"]
     },
     {
+      "description": "Schedule Docker image updates monthly on 1st (12am-9am)",
+      "matchDatasources": ["docker"],
+      "schedule": ["* 0-9 1 * *"],
+      "automerge": false
+    },
+    {
+      "description": "Schedule Node.js updates monthly on 1st (12am-9am)",
+      "matchPackageNames": ["node", "nodejs", "@types/node"],
+      "matchDatasources": ["node-version", "npm"],
+      "schedule": ["* 0-9 1 * *"],
+      "automerge": false
+    },
+    {
       "groupName": "motion-dependencies",
       "matchPackageNames": ["framer-motion", "motion"],
       "automerge": false
