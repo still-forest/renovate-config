@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.16.0](https://github.com/still-forest/renovate-config/compare/v0.15.0...v0.16.0) (2025-06-28)
+
+
+### Features
+
+* Never automerge in react native projects ([#68](https://github.com/still-forest/renovate-config/issues/68)) ([23dd02e](https://github.com/still-forest/renovate-config/commit/23dd02eca90f9303f63dde3844a8e8bdc8291caf))
+* Update Docker images, Node once per month; only rebase on conflict ([#70](https://github.com/still-forest/renovate-config/issues/70)) ([b243e06](https://github.com/still-forest/renovate-config/commit/b243e06b10ff869cc441c7a7418b9dbb40b3ffac))
+
 ## [0.15.0](https://github.com/still-forest/renovate-config/compare/v0.14.0...v0.15.0) (2025-06-16)
 
 
