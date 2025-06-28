@@ -1,5 +1,6 @@
 {
   "automerge": false,
+  "rebaseWhen": "conflicted",
   "commitMessagePrefix": "chore(deps): ",
   "extends": [
     "config:best-practices",
@@ -62,6 +63,19 @@
       "description": "Schedule patch updates on 1st & 15th of every month (12am-9am)",
       "matchUpdateTypes": ["major"],
       "schedule": ["* 0-9 1,15 * *"]
+    },
+    {
+      "description": "Schedule Docker image updates monthly on 1st (12am-9am)",
+      "matchDatasources": ["docker"],
+      "schedule": ["* 0-9 1 * *"],
+      "automerge": false
+    },
+    {
+      "description": "Schedule Node.js updates monthly on 1st (12am-9am)",
+      "matchPackageNames": ["node", "nodejs", "@types/node"],
+      "matchDatasources": ["node-version", "npm", "docker"],
+      "schedule": ["* 0-9 1 * *"],
+      "automerge": false
     },
     {
       "groupName": "motion-dependencies",
