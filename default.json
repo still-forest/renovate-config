@@ -72,7 +72,7 @@
     {
       "description": "Schedule Node.js updates monthly on 1st (12am-9am)",
       "matchPackageNames": ["node", "nodejs", "@types/node"],
-      "matchDatasources": ["node-version", "npm"],
+      "matchDatasources": ["node-version", "npm", "docker"],
       "schedule": ["* 0-9 1 * *"],
       "automerge": false
     },
