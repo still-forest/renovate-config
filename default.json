@@ -21,7 +21,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
-    "schedule": ["* * */14 * *"],
+    "schedule": ["0 0 */14 * *"],
     "automerge": true
   },
   "packageRules": [
@@ -52,29 +52,29 @@
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
-      "schedule": ["* * */14 * *"]
+      "schedule": ["0 0 */14 * *"]
     },
     {
       "description": "Schedule minor updates every 4 weeks",
       "matchUpdateTypes": ["minor"],
-      "schedule": ["* * */28 * *"]
+      "schedule": ["0 0 */28 * *"]
     },
     {
       "description": "Schedule major updates every 6 weeks",
       "matchUpdateTypes": ["major"],
-      "schedule": ["* * */42 * *"]
+      "schedule": ["0 0 */42 * *"]
     },
     {
       "description": "Schedule Docker image updates every 4 weeks",
       "matchDatasources": ["docker"],
-      "schedule": ["* * */28 * *"],
+      "schedule": ["0 0 */28 * *"],
       "automerge": false
     },
     {
       "description": "Schedule Node.js updates every 4 weeks",
       "matchPackageNames": ["node", "nodejs", "@types/node"],
       "matchDatasources": ["node-version", "npm", "docker"],
-      "schedule": ["* * */28 * *"],
+      "schedule": ["0 0 */28 * *"],
       "automerge": false
     },
     {
@@ -84,7 +84,15 @@
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
+      "matchPackageNames": [
+        "@babel/*",
+        "/eslint/",
+        "prettier",
+        "/testing/",
+        "@types/*",
+        "typescript*",
+        "vitest"
+      ],
       "automerge": true
     }
   ],
