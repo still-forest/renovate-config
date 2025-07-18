@@ -84,15 +84,7 @@
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": [
-        "@babel/*",
-        "/eslint/",
-        "prettier",
-        "/testing/",
-        "@types/*",
-        "typescript*",
-        "vitest"
-      ],
+      "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
       "automerge": true
     }
   ],
