@@ -21,7 +21,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
-    "schedule": ["* 0-9 * * 2"],
+    "schedule": ["* * */14 * *"],
     "automerge": true
   },
   "packageRules": [
@@ -48,33 +48,33 @@
       "automerge": true
     },
     {
-      "description": "Schedule patch updates every Saturday (12am-9am)",
+      "description": "Schedule patch updates every 2 weeks",
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
-      "schedule": ["* 0-9 * * 6"]
+      "schedule": ["* * */14 * *"]
     },
     {
-      "description": "Schedule minor updates every Sunday (12am-9am)",
+      "description": "Schedule minor updates every 4 weeks",
       "matchUpdateTypes": ["minor"],
-      "schedule": ["* 0-9 * * 0"]
+      "schedule": ["* * */28 * *"]
     },
     {
-      "description": "Schedule patch updates on 1st & 15th of every month (12am-9am)",
+      "description": "Schedule major updates every 6 weeks",
       "matchUpdateTypes": ["major"],
-      "schedule": ["* 0-9 1,15 * *"]
+      "schedule": ["* * */42 * *"]
     },
     {
-      "description": "Schedule Docker image updates monthly on 1st (12am-9am)",
+      "description": "Schedule Docker image updates every 4 weeks",
       "matchDatasources": ["docker"],
-      "schedule": ["* 0-9 1 * *"],
+      "schedule": ["* * */28 * *"],
       "automerge": false
     },
     {
-      "description": "Schedule Node.js updates monthly on 1st (12am-9am)",
+      "description": "Schedule Node.js updates every 4 weeks",
       "matchPackageNames": ["node", "nodejs", "@types/node"],
       "matchDatasources": ["node-version", "npm", "docker"],
-      "schedule": ["* 0-9 1 * *"],
+      "schedule": ["* * */28 * *"],
       "automerge": false
     },
     {
@@ -84,7 +84,15 @@
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
+      "matchPackageNames": [
+        "@babel/*",
+        "/eslint/",
+        "prettier",
+        "/testing/",
+        "@types/*",
+        "typescript*",
+        "vitest"
+      ],
       "automerge": true
     }
   ],
