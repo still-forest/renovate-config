@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.17.0](https://github.com/still-forest/renovate-config/compare/v0.16.0...v0.17.0) (2025-07-18)
+
+
+### Features
+
+* Reduce frequency of updates ([#76](https://github.com/still-forest/renovate-config/issues/76)) ([b886664](https://github.com/still-forest/renovate-config/commit/b88666439dc56d6627c1bb1798cc15d76cc41939))
+
 ## [0.16.0](https://github.com/still-forest/renovate-config/compare/v0.15.0...v0.16.0) (2025-06-28)
 
 
