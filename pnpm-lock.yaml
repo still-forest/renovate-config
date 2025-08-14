@@ -12,8 +12,8 @@ importers:
         specifier: 2.1.2
         version: 2.1.2
       '@still-forest/biomejs-config':
-        specifier: 2.0.0
-        version: 2.0.0(@biomejs/biome@2.1.2)
+        specifier: 2.0.1
+        version: 2.0.1(@biomejs/biome@2.1.2)
 
 packages:
 
@@ -70,10 +70,10 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@still-forest/biomejs-config@2.0.0':
-    resolution: {integrity: sha512-xcwYxabH2H/4xSV0wesvErVZkIHpdEbFQkL6mFbVwz4pHb4EDUuSvf1Jqd+cTpwWD5oVUtoN6rHyI/TNs4sXWA==}
+  '@still-forest/biomejs-config@2.0.1':
+    resolution: {integrity: sha512-Tnn7HajP9tmEpFAx9GTHu8xTiB2BP67rtleaToFtaG4hxDHOXzvq/0fiIPcTIkcfVu4DmEOJURRMB0TeO2p9KA==}
     peerDependencies:
-      '@biomejs/biome': ^2.0.4
+      '@biomejs/biome': '>=2.0.4, <3.0.0'
 
 snapshots:
 
@@ -112,6 +112,6 @@ snapshots:
   '@biomejs/cli-win32-x64@2.1.2':
     optional: true
 
-  '@still-forest/biomejs-config@2.0.0(@biomejs/biome@2.1.2)':
+  '@still-forest/biomejs-config@2.0.1(@biomejs/biome@2.1.2)':
     dependencies:
       '@biomejs/biome': 2.1.2
