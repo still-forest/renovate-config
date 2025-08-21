@@ -83,9 +83,10 @@
       "automerge": false
     },
     {
-      "description": "Automerge github actions",
-      "matchDatasources": ["github-actions"],
+      "description": "Automerge GitHub Actions",
+      "matchManagers": ["github-actions"],
       "matchPackageNames": ["codecov/codecov-action", "actions/checkout"],
+      "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
     },
     {
