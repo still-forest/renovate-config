@@ -83,6 +83,14 @@
       "automerge": false
     },
     {
+      "description": "Automerge GitHub Actions",
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["codecov/codecov-action", "actions/checkout", "astral-sh/setup-uv"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge devDependencies",
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": [
         "@babel/*",
