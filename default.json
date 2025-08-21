@@ -83,6 +83,13 @@
       "automerge": false
     },
     {
+      "description": "Automerge docker images",
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["codecov/codecov-action"],
+      "automerge": true
+    },
+    {
+      "description": "Automerge devDependencies",
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": [
         "@babel/*",
