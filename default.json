@@ -85,7 +85,7 @@
     {
       "description": "Automerge GitHub Actions",
       "matchManagers": ["github-actions"],
-      "matchPackageNames": ["codecov/codecov-action", "actions/checkout", "astral-sh/setup-uv"],
+      "matchPackageNames": ["actions/cache", "actions/checkout", "astral-sh/setup-uv", "codecov/codecov-action"],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
     },
