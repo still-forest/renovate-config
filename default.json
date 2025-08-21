@@ -85,7 +85,7 @@
     {
       "description": "Automerge github actions",
       "matchDatasources": ["github-actions"],
-      "matchPackageNames": ["codecov/codecov-action"],
+      "matchPackageNames": ["codecov/codecov-action", "actions/checkout"],
       "automerge": true
     },
     {
