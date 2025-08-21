@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.18.0](https://github.com/still-forest/renovate-config/compare/v0.17.0...v0.18.0) (2025-08-21)
+
+
+### Features
+
+* Automerge cache Github action updates ([#84](https://github.com/still-forest/renovate-config/issues/84)) ([09a10be](https://github.com/still-forest/renovate-config/commit/09a10be73e6103c2deb7ffa7d9be17a2d2501e4a))
+* Automerge codecov, actions/checkout, uv Github action updates ([#82](https://github.com/still-forest/renovate-config/issues/82)) ([ef7bd2f](https://github.com/still-forest/renovate-config/commit/ef7bd2f8d58bc07351bdee7d2dead6d4a4ab1902))
+
 ## [0.17.0](https://github.com/still-forest/renovate-config/compare/v0.16.0...v0.17.0) (2025-07-18)
 
 
