@@ -83,8 +83,8 @@
       "automerge": false
     },
     {
-      "description": "Automerge docker images",
-      "matchDatasources": ["docker"],
+      "description": "Automerge github actions",
+      "matchDatasources": ["github-actions"],
       "matchPackageNames": ["codecov/codecov-action"],
       "automerge": true
     },
