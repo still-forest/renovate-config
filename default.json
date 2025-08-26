@@ -71,6 +71,12 @@
       "automerge": false
     },
     {
+      "description": "Schedule GitHub Actions image updates every 4 weeks",
+      "matchDatasources": ["github-actions"],
+      "schedule": ["* 0 */28 * *"],
+      "automerge": false
+    },
+    {
       "description": "Schedule Node.js updates every 4 weeks",
       "matchPackageNames": ["node", "nodejs", "@types/node"],
       "matchDatasources": ["node-version", "npm", "docker"],
