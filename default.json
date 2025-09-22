@@ -77,6 +77,12 @@
       "automerge": false
     },
     {
+      "description": "Schedule uv updates every 4 weeks",
+      "matchPackageNames": ["astral-sh/uv"],
+      "schedule": ["* 0 */28 * *"],
+      "automerge": false
+    },
+    {
       "description": "Schedule Node.js updates every 4 weeks",
       "matchPackageNames": ["node", "nodejs", "@types/node"],
       "matchDatasources": ["node-version", "npm", "docker"],
@@ -98,15 +104,7 @@
     {
       "description": "Automerge devDependencies",
       "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": [
-        "@babel/*",
-        "/eslint/",
-        "prettier",
-        "/testing/",
-        "@types/*",
-        "typescript*",
-        "vitest"
-      ],
+      "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
       "automerge": true
     }
   ],
