@@ -48,21 +48,21 @@
       "automerge": true
     },
     {
-      "description": "Schedule patch updates every 2 weeks",
+      "description": "Schedule patch updates every week",
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
+      "schedule": ["* 0 */7 * *"]
+    },
+    {
+      "description": "Schedule minor updates every 2 weeks",
+      "matchUpdateTypes": ["minor"],
       "schedule": ["* 0 */14 * *"]
     },
     {
-      "description": "Schedule minor updates every 4 weeks",
-      "matchUpdateTypes": ["minor"],
-      "schedule": ["* 0 */28 * *"]
-    },
-    {
-      "description": "Schedule major updates every 2 months",
+      "description": "Schedule major updates every 4 weeks",
       "matchUpdateTypes": ["major"],
-      "schedule": ["* 0 * */2 *"]
+      "schedule": ["* 0 */28 * *"]
     },
     {
       "description": "Schedule Docker image updates every 4 weeks",
