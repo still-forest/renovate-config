@@ -21,7 +21,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "recreateWhen": "auto",
-    "schedule": ["* 0 */14 * *"],
+    "schedule": ["* 0-9 * * 2"],
     "automerge": true
   },
   "packageRules": [
@@ -48,45 +48,45 @@
       "automerge": true
     },
     {
-      "description": "Schedule patch updates every week",
+      "description": "Schedule patch updates every Saturday (12am-9am)",
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
-      "schedule": ["* 0 */7 * *"]
+      "schedule": ["* 0-9 * * 6"]
     },
     {
-      "description": "Schedule minor updates every 2 weeks",
+      "description": "Schedule minor updates every Sunday (12am-9am)",
       "matchUpdateTypes": ["minor"],
-      "schedule": ["* 0 */14 * *"]
+      "schedule": ["* 0-9 * * 0"]
     },
     {
-      "description": "Schedule major updates every 4 weeks",
+      "description": "Schedule major updates on 1st & 15th of every month (12am-9am)",
       "matchUpdateTypes": ["major"],
-      "schedule": ["* 0 */28 * *"]
+      "schedule": ["* 0-9 1,15 * *"]
     },
     {
-      "description": "Schedule Docker image updates every 4 weeks",
+      "description": "Schedule Docker image updates monthly on 1st (12am-9am)",
       "matchDatasources": ["docker"],
-      "schedule": ["* 0 */28 * *"],
+      "schedule": ["* 0-9 1 * *"],
       "automerge": false
     },
     {
-      "description": "Schedule GitHub Actions image updates every 4 weeks",
+      "description": "Schedule GitHub Actions images monthly on 1st (12am-9am)",
       "matchDatasources": ["github-actions"],
-      "schedule": ["* 0 */28 * *"],
+      "schedule": ["* 0-9 1 * *"],
       "automerge": false
     },
     {
-      "description": "Schedule uv updates every 4 weeks",
+      "description": "Schedule uv updates monthly on 1st (12am-9am)",
       "matchPackageNames": ["astral-sh/uv"],
-      "schedule": ["* 0 */28 * *"],
+      "schedule": ["* 0-9 1 * *"],
       "automerge": false
     },
     {
-      "description": "Schedule Node.js updates every 4 weeks",
+      "description": "Schedule Node.js updates monthly on 1st (12am-9am)",
       "matchPackageNames": ["node", "nodejs", "@types/node"],
       "matchDatasources": ["node-version", "npm", "docker"],
-      "schedule": ["* 0 */28 * *"],
+      "schedule": ["* 0-9 1 * *"],
       "automerge": false
     },
     {
