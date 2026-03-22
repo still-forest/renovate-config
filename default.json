@@ -32,6 +32,7 @@
     {
       "matchUpdateTypes": ["minor"],
       "matchPackageNames": [
+        "@storybook/*",
         "@vitejs/*",
         "@vitest/*",
         "coverage",
@@ -42,6 +43,7 @@
         "pnpm",
         "still-forest/renovate-config",
         "still-forest/biomejs-config",
+        "storybook",
         "tailwind-merge",
         "vitest*"
       ],
@@ -87,11 +89,6 @@
       "matchPackageNames": ["node", "nodejs", "@types/node"],
       "matchDatasources": ["node-version", "npm", "docker"],
       "schedule": ["* 0-9 1 * *"],
-      "automerge": false
-    },
-    {
-      "groupName": "motion-dependencies",
-      "matchPackageNames": ["framer-motion", "motion"],
       "automerge": false
     },
     {

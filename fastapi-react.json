@@ -12,7 +12,7 @@
       "automerge": false
     },
     {
-      "matchPackageNames": ["black", "isort", "ruff", "mypy", "flake8", "pytest*", "types-p*"],
+      "matchPackageNames": ["black", "isort", "ruff", "mypy", "flake8", "pytest*", "sentry-sdk ", "types-p*"],
       "automerge": true
     }
   ]
