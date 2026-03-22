@@ -1,9 +1,0 @@
-{
-  "extends": ["local>still-forest/renovate-config"],
-  "packageRules": [
-    {
-      "groupName": "svelte-dependencies",
-      "matchPackageNames": ["/^svelte/"]
-    }
-  ]
-}

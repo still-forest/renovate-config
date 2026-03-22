@@ -18,13 +18,12 @@ There are 4 custom/specific configurations, each inheriting from the default con
 - `fastapi-react`: Adds configurations for Python package management (poetry) and grouping of [FastAPI](https://fastapi.tiangolo.com/) and [Strawberry](https://strawberry.rocks/)-related packages.
 - `fullstack-js`: At present, an alias of `default`. It's kepy separately for future usage. e.g., to group all `nextjs` packages together
 - `npm-package`: Modification of `peerDependencies` is disabled, to preserve support of older core libraries (e.g., React 18).
-- `svelte`: Adds grouping of [Svelte](https://svelte.dev/) monorepo packages.
 
 #### Features:
 
 <table>
 <tr>
-<th></th><th>default</th><th>fastapi-react</th><th>fullstack-js</th><th>npm-package</th><th>svelte</th></tr>
+<th></th><th>default</th><th>fastapi-react</th><th>fullstack-js</th><th>npm-package</th><th>svelte (deprecated)</th></tr>
 
 <tr><td colspan=6 align=center><b>Package managers</b></td></tr>
 <tr><td>Javascript/Typescript</td><td colspan=5 align=center>✅ (npm / pnpm)</td></tr>
@@ -44,7 +43,6 @@ There are 4 custom/specific configurations, each inheriting from the default con
 <tr><td>Motion</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Prettier</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Strawberry (Python GQL)</td><td>❌</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td></tr>
-<tr><td>Svelte</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr>
 <tr><td>Types (any)</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Typescript</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Vitest</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
@@ -66,7 +64,6 @@ There are 4 custom/specific configurations, each inheriting from the default con
 <tr><td>Motion</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 <tr><td>Prettier</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Strawberry (Python GQL)</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
-<tr><td>Svelte</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
 <tr><td>Types (any)</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Typescript</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
 <tr><td>Vitest</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td><td>✅</td></tr>
