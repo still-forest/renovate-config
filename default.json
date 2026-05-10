@@ -106,8 +106,7 @@
     },
     {
       "matchPackageNames": ["@blocknote/*"],
-      "groupName": "Blocknote dependencies",
-      "automerge": true
+      "groupName": "Blocknote dependencies"
     }
   ],
   "prHourlyLimit": 5,
