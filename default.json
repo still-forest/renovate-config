@@ -103,6 +103,10 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
       "automerge": true
+    },
+    {
+      "matchPackageNames": ["@blocknote/*"],
+      "groupName": "Blocknote dependencies"
     }
   ],
   "prHourlyLimit": 5,
