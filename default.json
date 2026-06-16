@@ -19,10 +19,7 @@
   ],
   "timezone": "Asia/Singapore",
   "lockFileMaintenance": {
-    "enabled": true,
-    "recreateWhen": "auto",
-    "schedule": ["* 0-9 * * 2"],
-    "automerge": true
+    "enabled": false
   },
   "packageRules": [
     {
