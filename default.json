@@ -38,6 +38,7 @@
         "motion",
         "msw",
         "pnpm",
+        "resend",
         "still-forest/renovate-config",
         "still-forest/biomejs-config",
         "storybook",
