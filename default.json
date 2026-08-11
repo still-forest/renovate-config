@@ -19,7 +19,11 @@
   ],
   "timezone": "Asia/Singapore",
   "lockFileMaintenance": {
-    "enabled": false
+    "description": "Refresh lock files monthly on the 8th (12am-9am)",
+    "enabled": true,
+    "recreateWhen": "auto",
+    "schedule": ["* 0-9 8 * *"],
+    "automerge": true
   },
   "packageRules": [
     {
@@ -38,7 +42,6 @@
         "motion",
         "msw",
         "pnpm",
-        "resend",
         "still-forest/renovate-config",
         "still-forest/biomejs-config",
         "storybook",
@@ -101,10 +104,6 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
       "automerge": true
-    },
-    {
-      "matchPackageNames": ["@blocknote/*"],
-      "groupName": "Blocknote dependencies"
     }
   ],
   "prHourlyLimit": 5,
