@@ -104,6 +104,10 @@
       "matchDepTypes": ["devDependencies"],
       "matchPackageNames": ["@babel/*", "/eslint/", "prettier", "/testing/", "@types/*", "typescript*", "vitest"],
       "automerge": true
+    },
+    {
+      "groupName": "blocknote monorepo",
+      "matchPackageNames": ["@blocknote/*"]
     }
   ],
   "prHourlyLimit": 5,
