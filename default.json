@@ -41,13 +41,21 @@
         "lucide-react",
         "motion",
         "msw",
+        "node",
         "pnpm",
+        "react-hook-form",
+        "resend",
         "still-forest/renovate-config",
         "still-forest/biomejs-config",
         "storybook",
         "tailwind-merge",
         "vitest*"
       ],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["digest"],
+      "matchPackageNames": ["actions/deploy-pages", "node"],
       "automerge": true
     },
     {
