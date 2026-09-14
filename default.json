@@ -116,6 +116,11 @@
     {
       "groupName": "blocknote monorepo",
       "matchPackageNames": ["@blocknote/*"]
+    },
+    {
+      "description": "better-auth ships breaking schema changes in patch releases — 1.7.0 added a required account.issuer column, 1.7.3 reverted it and hard-fails on the leftover. Always review manually.",
+      "matchPackageNames": ["better-auth", "@better-auth/*"],
+      "automerge": false
     }
   ],
   "prHourlyLimit": 5,
