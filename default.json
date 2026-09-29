@@ -38,6 +38,7 @@
         "@vitest/*",
         "coverage",
         "framer-motion",
+        "jsdom",
         "lucide-react",
         "motion",
         "msw",
