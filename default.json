@@ -2,7 +2,7 @@
   "automerge": false,
   "rebaseWhen": "conflicted",
   "commitMessagePrefix": "chore(deps): ",
-  "branchTopic": "{{{depNameSanitized}}}-{{{newMajor}}}{{#if separateMinorPatch}}{{#if isPatch}}.{{{newMinor}}}{{/if}}{{/if}}{{#if separateMultipleMinor}}{{#if isMinor}}.{{{newMinor}}}{{/if}}{{/if}}.{{{newPatch}}}{{#if isLockfileUpdate}}-lockfile{{/if}}",
+  "branchTopic": "{{{depNameSanitized}}}-{{{newMajor}}}.{{{newMinor}}}.{{{newPatch}}}{{#if isLockfileUpdate}}-lockfile{{/if}}",
   "extends": [
     "config:best-practices",
     "group:recommended",
